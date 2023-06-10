@@ -73,7 +73,7 @@ a:hover {
 
 .nft-card-image-container:hover {
   background-color: var(--cyan);
-  background-image: url("./images/icon-view.svg");
+  background-image: url("../public/images/icon-view.svg");
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .price::before {
-  content: url("./images/icon-ethereum.svg");
+  content: url("../public/images/icon-ethereum.svg");
   align-self: flex-end;
 }
 
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .time-left::before {
-  content: url("./images/icon-clock.svg");
+  content: url("../public/images/icon-clock.svg");
   align-self: flex-end;
 }
 
